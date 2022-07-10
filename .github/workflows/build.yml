@@ -1,11 +1,9 @@
 name: Release
 
 on:
-  schedule:
-    - cron: "1 1 1 * *"
   push:
     branches:
-    - '**'
+    - 'master'
 
 jobs:
   u-build:
